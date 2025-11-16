@@ -5,6 +5,12 @@ The cart state is managed in a centralized store, which makes it easier to share
 The calculation rules are implemented in one function (well suited for a composables folder), so for a new rule you only have to adapt one function.
 One edge case is considered, if the amount of subtotal is <= 0 you cant remove an item from the cart.
 
+## Usage
+
+```js-vue
+<ShoppingCart :items="store.cartItems"></ShoppingCart>
+```
+
 ## Requirements
 
 ```sh

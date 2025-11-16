@@ -5,6 +5,13 @@ The cart state is managed in a centralized store, which makes it easier to share
 The calculation rules are implemented in one function, so for a new rule you only have to adapt one function.
 One edge case is considered, if the amount of subtotal is <= 0 you cant remove an item from the cart.
 
+## Requirements
+
+```sh
+vue@3.5.24
+node@v24.11.0
+```
+
 ## Installation
 
 ```sh

@@ -8,8 +8,6 @@ One edge case is considered, if the amount of subtotal is <= 0 you cant remove a
 ## Installation
 
 ```sh
-yarn add buefy
-npm install -D vitest @vue/test-utils @testing-library/vue jsdom
 yarn
 ```
 
